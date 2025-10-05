@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+--brand: #0ea5a4;
+--muted: #6b7280;
+}
+
+
+body {
+background: linear-gradient(180deg, rgba(240,249,250,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.bg-overlay {
+  background: linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.8) 100%);
+}
